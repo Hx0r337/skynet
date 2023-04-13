@@ -1,0 +1,143 @@
+// Button Config 
+$border_radius: 0.3rem;
+$border_radius_hover: 0.4rem;
+$padding: 0.2rem 1rem;
+
+button {
+  cursor: pointer;
+  border-radius: $border_radius;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin: 1.5rem 1rem;
+  background-color: white;
+  border-style: none;
+  font-size: 1.5rem;
+  padding: $padding;
+  filter: drop-shadow(8px 8px 1px #e4e4e4);
+  transition: 0.1s;
+
+  &:hover {
+    border-radius: $border_radius_hover;
+    filter: drop-shadow(1px 1px 1px #e4e4e4);
+  }
+}
+
+.btn1 {
+  background-color: var(--discord);
+  filter: drop-shadow(8px 8px 1px #2b3492);
+  &:hover {
+    filter: drop-shadow(0 0 0 #2b3492);
+  }
+}
+.btn2 {
+  background-color: var(--yellow);
+  filter: drop-shadow(8px 8px 1px #666008);
+  &:hover {
+    filter: drop-shadow(0 0 0 #666008);
+  }
+}
+.btn3 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #154b03);
+  &:hover {
+    filter: drop-shadow(0 0 0 #154b03);
+  }
+}
+.btn4 {
+  background-color: var(--red);
+  filter: drop-shadow(8px 8px 1px #4b0303);
+  &:hover {
+    filter: drop-shadow(0 0 0 #4b0303);
+  }
+}
+.btn5 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #03464b);
+  &:hover {
+    filter: drop-shadow(0 0 0 #03434b);
+  }
+}
+.btn6 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #03344b);
+  &:hover {
+    filter: drop-shadow(0 0 0 #03144b);
+  }
+}
+.btn7 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #034b2c);
+  &:hover {
+    filter: drop-shadow(0 0 0 #034b2c);
+  }
+}
+.btn8 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #034b32);
+  &:hover {
+    filter: drop-shadow(0 0 0 #034b32);
+  }
+}
+.btn9 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #154b03);
+  &:hover {
+    filter: drop-shadow(0 0 0 #154b03);
+  }
+}
+.btn10 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #1f034b);
+  &:hover {
+    filter: drop-shadow(0 0 0 #1f034b);
+  }
+}
+.btn11 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #031a4b);
+  &:hover {
+    filter: drop-shadow(0 0 0 #031a4b);
+  }
+}
+.btn12 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #384b03);
+  &:hover {
+    filter: drop-shadow(0 0 0 #384b03);
+  }
+}
+.btn13 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #4a4b03);
+  &:hover {
+    filter: drop-shadow(0 0 0 #4a4b03);
+  }
+}
+.btn14 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #32034b);
+  &:hover {
+    filter: drop-shadow(0 0 0 #32034b);
+  }
+}
+.btn15 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #4b034a);
+  &:hover {
+    filter: drop-shadow(0 0 0 #4b034a);
+  }
+}
+.btn16 {
+  background-color: var(--green);
+  filter: drop-shadow(8px 8px 1px #03164b);
+  &:hover {
+    filter: drop-shadow(0 0 0 #03164b);
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .buttons {
+    width: 80px;
+  }
+}
